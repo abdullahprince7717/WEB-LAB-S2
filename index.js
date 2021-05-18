@@ -71,11 +71,11 @@ function getrequest() {
                 var response = result[i];
                 req.append(`
               <div class="product" data-id="${response._id}">
-               <u><h2>Name:</h2></u><p>${response.name}</p>
-               <u><h2>Price:</h2></u><p>${response.price}<p>
-               <u><h2>Color:</h2></u><p>${response.color}<p>
-               <u><h2>Department:</h2></u><p>${response.department}</p>
-               <u><h2>Description:</h2></u><p><button class="btn btn-danger btn-sm float-right"> Delete</button> <button class="btn btn-warning btn-sm float-right"> Edit</button>
+               <h5>Name:</h5><p>${response.name}</p>
+               <h5>Price:</h5><p>${response.price}<p>
+               <h5>Color:</h5><p>${response.color}<p>
+               <h5>Department:</h5><p>${response.department}</p>
+               <h5>Description:</h5><button class="btn btn-danger btn-sm float-right"> Delete</button> <button class="btn btn-warning btn-sm float-right"> Edit</button>
                 ${response.description}</p>
               </div>`);
 
