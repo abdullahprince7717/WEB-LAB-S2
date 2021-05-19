@@ -1,7 +1,6 @@
 $(function () {
 
     getrequest();
-    // $(".getall-btn").click(getrequest());
 
     $("#recipes").on("click", ".btn-danger", handledelete);
     $("#btn").click(addproduct);
